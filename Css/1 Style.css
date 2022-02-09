@@ -1,3 +1,108 @@
-body{
-    background-color: #00fff0;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
+
+/*Contenido Section 1*/
+
+body{
+    background-color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+}
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.album img{
+    margin:  0 8px;
+    width: 225px;
+    height: 225px;
+}
+
+/*LETRAS*/
+
+.album p{
+    margin: 0 8px ;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding-bottom: 1rem;
+}
+
+h3{
+    text-align: left;
+    font-size: 50px;
+    padding: 1.5em;
+}
+
+.cancion{
+    font-weight: bolder;
+}
+
+.boton{
+    background: linear-gradient(102deg,#983D99 40% , #983EFF 60% );
+    color: #fefefe;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    min-width: 200px;
+    text-decoration: none;
+    margin: 2rem;
+    text-align: right;
+}
+
+/*Section 2*/
+
+body{
+    background-color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listas img{
+    margin:  0 8px;
+    width: 300px;
+    height: 275px;
+}
+
+#img{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*section 3*/
+
+body{
+    background-color: #fefefe;
+    font-family: 'Roboto', sans-serif;
+}
+
+.canciones-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.canciones-top img{
+    margin:  0 8px;
+    width: 225px;
+    height: 225px;
+}
+
