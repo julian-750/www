@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(192, 192, 192);
+   
+  }
+  
+  /* REGISTRO */
+  .registro {
+    width: 400px;
+    background: rgb(243, 243, 243);
+    padding: 30px;
+    margin: auto;
+    margin-top: 160px;
+    margin-bottom: 190px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #686868;
+    
+  }
+  
+  .registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  /* Genero */
+  /* LENGUAJES PROGRAMACION */
+  .dato {
+    width: 100%;
+    background: rgb(228, 228, 228);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0057d1;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #686868;
+    
+  }
+  
+  /* ¿Ya tengo Cuenta? */
+  .registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    
+    
+  }
+  
+  .registro a {
+    color: #686868;
+    text-decoration: none;
+  }
+  
+  .registro a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+   /* BOTON */
+  .registro .boton {
+    margin-left: 40px;
+    background: #0057d1;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .name{
+    color: #686868;
+  }
+  
