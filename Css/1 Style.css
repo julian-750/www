@@ -15,17 +15,36 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    padding: 70px;
+    
     
 }
 
 .album img{
-    margin-top: 100px;
-    margin:  0 8px;
+    margin: 5px;
     width: 350px;
     height: 350px;
+    border-radius: 30px;
+    transition: 0.5s;
 }
 
+a:hover img{
+    width: 370px;
+    height: 370px;
+}
+
+h3{
+    position: absolute;
+    margin-top: 40px;
+}
+
+
+
 /*LETRAS*/
+
 .album p{
     margin: 0 8px ;
     letter-spacing: 1px;
@@ -46,13 +65,14 @@ h3{
 .boton{
     background: linear-gradient(102deg,#983D99 40% , #983EFF 60% );
     color: #fefefe;
-    display: inline-block;
     padding: 1rem 2rem;
     border-radius: .25rem;
     min-width: 200px;
     text-decoration: none;
-    margin: 2rem;
+    margin-left: 800px;
+    margin-bottom: 500px;
     text-align: right;
+    position: absolute;
 }
 
 
@@ -133,9 +153,11 @@ h4{
 }
 
 .canciones-top img{
-    margin:  0 8px;
+    margin: 5px;
     width: 350px;
     height: 350px;
+    border-radius: 30px;
+    transition: 0.5s;
 }
 
 /*LETRAS SECTION 3*/
