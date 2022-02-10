@@ -4,15 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-
-/*Contenido Section 1*/
-
-body{
-    background-color: #fefefeab;
+   
     font-family: 'Roboto', sans-serif;
 }
+
+/*Contenido album*/
+
 
 .album{
     display: flex;
@@ -22,13 +19,13 @@ body{
 }
 
 .album img{
+    margin-top: 100px;
     margin:  0 8px;
     width: 350px;
     height: 350px;
 }
 
 /*LETRAS*/
-
 .album p{
     margin: 0 8px ;
     letter-spacing: 1px;
@@ -58,6 +55,7 @@ h3{
     text-align: right;
 }
 
+
 /*Section 2*/
 
 .listas{
@@ -66,22 +64,61 @@ h3{
 }
 
 /*.listas{
+=======
+/*Section listas*/
+
+.listas{
+    margin-top: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}*/
+}
 
 .listas img{
     margin:  0 8px;
-    width: 300px;
-    height: 275px;
+    width: 350px;
+    height: 350px;
+}
+
+.listas p{
+    
+    margin: 0 8px ;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding-bottom: 1rem;    
+    
+}
+
+.listas p{
+    font-weight: bolder;
+}
+.listas img{
+   
+    margin: 5px;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+a:hover img{
+    width: 370px;
+    height: 370px;
+}
+
+h4{
+    position: absolute;
+    font-size: 50px;
+    padding: 1em;
+    margin: 0 30px;
+    
 }
 
 
 
-
-/*section 3*/
+/*section canciones top*/
 
 .canciones-top{
     font-family: 'Roboto', sans-serif;
